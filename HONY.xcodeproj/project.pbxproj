@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0F61E220282A89005B528C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61E120282A89005B528C /* AppDelegate.swift */; };
+		DB0F61E420282A89005B528C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61E320282A89005B528C /* ViewController.swift */; };
+		DB0F61E720282A89005B528C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61E520282A89005B528C /* Main.storyboard */; };
+		DB0F61E920282A89005B528C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61E820282A89005B528C /* Assets.xcassets */; };
+		DB0F61EC20282A89005B528C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */; };
+		DB0F61F720282A89005B528C /* HONYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61F620282A89005B528C /* HONYTests.swift */; };
+		DB0F620220282A89005B528C /* HONYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F620120282A89005B528C /* HONYUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0F61F320282A89005B528C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0F61D620282A89005B528C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0F61DD20282A89005B528C;
+			remoteInfo = HONY;
+		};
+		DB0F61FE20282A89005B528C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0F61D620282A89005B528C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0F61DD20282A89005B528C;
+			remoteInfo = HONY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0F61DE20282A89005B528C /* HONY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HONY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0F61E120282A89005B528C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB0F61E320282A89005B528C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB0F61E620282A89005B528C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0F61E820282A89005B528C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0F61EB20282A89005B528C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB0F61ED20282A89005B528C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0F61F220282A89005B528C /* HONYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HONYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0F61F620282A89005B528C /* HONYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HONYTests.swift; sourceTree = "<group>"; };
+		DB0F61F820282A89005B528C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0F61FD20282A89005B528C /* HONYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HONYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0F620120282A89005B528C /* HONYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HONYUITests.swift; sourceTree = "<group>"; };
+		DB0F620320282A89005B528C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0F61DB20282A89005B528C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0F61EF20282A89005B528C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0F61FA20282A89005B528C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0F61D520282A89005B528C = {
+			isa = PBXGroup;
+			children = (
+				DB0F61E020282A89005B528C /* HONY */,
+				DB0F61F520282A89005B528C /* HONYTests */,
+				DB0F620020282A89005B528C /* HONYUITests */,
+				DB0F61DF20282A89005B528C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0F61DF20282A89005B528C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F61DE20282A89005B528C /* HONY.app */,
+				DB0F61F220282A89005B528C /* HONYTests.xctest */,
+				DB0F61FD20282A89005B528C /* HONYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0F61E020282A89005B528C /* HONY */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F61E120282A89005B528C /* AppDelegate.swift */,
+				DB0F61E320282A89005B528C /* ViewController.swift */,
+				DB0F61E520282A89005B528C /* Main.storyboard */,
+				DB0F61E820282A89005B528C /* Assets.xcassets */,
+				DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */,
+				DB0F61ED20282A89005B528C /* Info.plist */,
+			);
+			path = HONY;
+			sourceTree = "<group>";
+		};
+		DB0F61F520282A89005B528C /* HONYTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F61F620282A89005B528C /* HONYTests.swift */,
+				DB0F61F820282A89005B528C /* Info.plist */,
+			);
+			path = HONYTests;
+			sourceTree = "<group>";
+		};
+		DB0F620020282A89005B528C /* HONYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0F620120282A89005B528C /* HONYUITests.swift */,
+				DB0F620320282A89005B528C /* Info.plist */,
+			);
+			path = HONYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0F61DD20282A89005B528C /* HONY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0F620620282A8A005B528C /* Build configuration list for PBXNativeTarget "HONY" */;
+			buildPhases = (
+				DB0F61DA20282A89005B528C /* Sources */,
+				DB0F61DB20282A89005B528C /* Frameworks */,
+				DB0F61DC20282A89005B528C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HONY;
+			productName = HONY;
+			productReference = DB0F61DE20282A89005B528C /* HONY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0F61F120282A89005B528C /* HONYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0F620920282A8A005B528C /* Build configuration list for PBXNativeTarget "HONYTests" */;
+			buildPhases = (
+				DB0F61EE20282A89005B528C /* Sources */,
+				DB0F61EF20282A89005B528C /* Frameworks */,
+				DB0F61F020282A89005B528C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0F61F420282A89005B528C /* PBXTargetDependency */,
+			);
+			name = HONYTests;
+			productName = HONYTests;
+			productReference = DB0F61F220282A89005B528C /* HONYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0F61FC20282A89005B528C /* HONYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0F620C20282A8A005B528C /* Build configuration list for PBXNativeTarget "HONYUITests" */;
+			buildPhases = (
+				DB0F61F920282A89005B528C /* Sources */,
+				DB0F61FA20282A89005B528C /* Frameworks */,
+				DB0F61FB20282A89005B528C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0F61FF20282A89005B528C /* PBXTargetDependency */,
+			);
+			name = HONYUITests;
+			productName = HONYUITests;
+			productReference = DB0F61FD20282A89005B528C /* HONYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0F61D620282A89005B528C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mavey Ma";
+				TargetAttributes = {
+					DB0F61DD20282A89005B528C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB0F61F120282A89005B528C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB0F61DD20282A89005B528C;
+					};
+					DB0F61FC20282A89005B528C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB0F61DD20282A89005B528C;
+					};
+				};
+			};
+			buildConfigurationList = DB0F61D920282A89005B528C /* Build configuration list for PBXProject "HONY" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0F61D520282A89005B528C;
+			productRefGroup = DB0F61DF20282A89005B528C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0F61DD20282A89005B528C /* HONY */,
+				DB0F61F120282A89005B528C /* HONYTests */,
+				DB0F61FC20282A89005B528C /* HONYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0F61DC20282A89005B528C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0F61EC20282A89005B528C /* LaunchScreen.storyboard in Resources */,
+				DB0F61E920282A89005B528C /* Assets.xcassets in Resources */,
+				DB0F61E720282A89005B528C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0F61F020282A89005B528C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0F61FB20282A89005B528C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0F61DA20282A89005B528C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0F61E420282A89005B528C /* ViewController.swift in Sources */,
+				DB0F61E220282A89005B528C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0F61EE20282A89005B528C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0F61F720282A89005B528C /* HONYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0F61F920282A89005B528C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0F620220282A89005B528C /* HONYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0F61F420282A89005B528C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0F61DD20282A89005B528C /* HONY */;
+			targetProxy = DB0F61F320282A89005B528C /* PBXContainerItemProxy */;
+		};
+		DB0F61FF20282A89005B528C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0F61DD20282A89005B528C /* HONY */;
+			targetProxy = DB0F61FE20282A89005B528C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB0F61E520282A89005B528C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0F61E620282A89005B528C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0F61EB20282A89005B528C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0F620420282A8A005B528C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB0F620520282A8A005B528C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0F620720282A8A005B528C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ5CM398TH;
+				INFOPLIST_FILE = HONY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.mma.HONY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0F620820282A8A005B528C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ5CM398TH;
+				INFOPLIST_FILE = HONY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.mma.HONY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB0F620A20282A8A005B528C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ5CM398TH;
+				INFOPLIST_FILE = HONYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.mma.HONYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HONY.app/HONY";
+			};
+			name = Debug;
+		};
+		DB0F620B20282A8A005B528C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ5CM398TH;
+				INFOPLIST_FILE = HONYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.mma.HONYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HONY.app/HONY";
+			};
+			name = Release;
+		};
+		DB0F620D20282A8A005B528C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ5CM398TH;
+				INFOPLIST_FILE = HONYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.mma.HONYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HONY;
+			};
+			name = Debug;
+		};
+		DB0F620E20282A8A005B528C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ5CM398TH;
+				INFOPLIST_FILE = HONYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.mma.HONYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HONY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0F61D920282A89005B528C /* Build configuration list for PBXProject "HONY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0F620420282A8A005B528C /* Debug */,
+				DB0F620520282A8A005B528C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0F620620282A8A005B528C /* Build configuration list for PBXNativeTarget "HONY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0F620720282A8A005B528C /* Debug */,
+				DB0F620820282A8A005B528C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0F620920282A8A005B528C /* Build configuration list for PBXNativeTarget "HONYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0F620A20282A8A005B528C /* Debug */,
+				DB0F620B20282A8A005B528C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0F620C20282A8A005B528C /* Build configuration list for PBXNativeTarget "HONYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0F620D20282A8A005B528C /* Debug */,
+				DB0F620E20282A8A005B528C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0F61D620282A89005B528C /* Project object */;
+}
