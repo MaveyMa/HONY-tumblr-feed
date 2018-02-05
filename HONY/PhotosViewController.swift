@@ -36,7 +36,6 @@ class PhotosViewController: UIViewController {
       }
     }
     task.resume()
-    
   }
   
   override func didReceiveMemoryWarning() {

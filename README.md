@@ -1,8 +1,8 @@
-# Lab 1 - *Name of App Here*
+# Lab 1 - *HONY Scroll*
 
-**Name of your app** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+**HONY Scroll** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts) to view photos from the blog Humans of New York.
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
@@ -37,10 +37,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+* Ran into a [problem](https://stackoverflow.com/questions/32579150/uiimageview-missing-images-in-launch-screen-on-device)  where ImageView would not appear in color no matter how much restarting or cleaning.  Luckily, my lab partner did not have this problem.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Mavey Ma, Angel Gonzalez]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
