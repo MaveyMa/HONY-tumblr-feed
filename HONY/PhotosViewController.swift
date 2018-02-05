@@ -22,6 +22,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    task.resume()
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //change 5 to posts.count when posts is
