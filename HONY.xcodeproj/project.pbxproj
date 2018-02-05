@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113C243F7629E1D37682FF73 /* Pods_HONYUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D77A72EB24875B3CA545A7 /* Pods_HONYUITests.framework */; };
+		29A01A9F50C89194AD92940F /* Pods_HONY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3EE680051A03BBE1ED83EA /* Pods_HONY.framework */; };
 		DB0F61E220282A89005B528C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61E120282A89005B528C /* AppDelegate.swift */; };
 		DB0F61E420282A89005B528C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61E320282A89005B528C /* ViewController.swift */; };
 		DB0F61E720282A89005B528C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61E520282A89005B528C /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		DB0F61EC20282A89005B528C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */; };
 		DB0F61F720282A89005B528C /* HONYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61F620282A89005B528C /* HONYTests.swift */; };
 		DB0F620220282A89005B528C /* HONYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F620120282A89005B528C /* HONYUITests.swift */; };
+		EA37CDED4AF479E106BE38F2 /* Pods_HONYTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBF5A5F43571CD2CB3208CE /* Pods_HONYTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08066F021CFCE87579A37F4C /* Pods-HONYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HONYTests/Pods-HONYTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20D77A72EB24875B3CA545A7 /* Pods_HONYUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HONYUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26274F0A5A57364AB7C9D863 /* Pods-HONY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONY.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONY/Pods-HONY.release.xcconfig"; sourceTree = "<group>"; };
+		417ABB693A37D7A19B5508F2 /* Pods-HONYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HONYUITests/Pods-HONYUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94034A0EDAD1A11790562120 /* Pods-HONY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HONY/Pods-HONY.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE77F3F974DA73D190F4D2C /* Pods-HONYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONYTests/Pods-HONYTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB0F61DE20282A89005B528C /* HONY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HONY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0F61E120282A89005B528C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB0F61E320282A89005B528C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		DB0F61FD20282A89005B528C /* HONYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HONYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0F620120282A89005B528C /* HONYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HONYUITests.swift; sourceTree = "<group>"; };
 		DB0F620320282A89005B528C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3EE680051A03BBE1ED83EA /* Pods_HONY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HONY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBF5A5F43571CD2CB3208CE /* Pods_HONYTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HONYTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC9D1114B64A7BCEED819D1 /* Pods-HONYUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONYUITests/Pods-HONYUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A01A9F50C89194AD92940F /* Pods_HONY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA37CDED4AF479E106BE38F2 /* Pods_HONYTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113C243F7629E1D37682FF73 /* Pods_HONYUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47AC687B620C7A771B5C7EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD3EE680051A03BBE1ED83EA /* Pods_HONY.framework */,
+				DEBF5A5F43571CD2CB3208CE /* Pods_HONYTests.framework */,
+				20D77A72EB24875B3CA545A7 /* Pods_HONYUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB0F61D520282A89005B528C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				DB0F61F520282A89005B528C /* HONYTests */,
 				DB0F620020282A89005B528C /* HONYUITests */,
 				DB0F61DF20282A89005B528C /* Products */,
+				F3D7AA05E6B19227A212D6FC /* Pods */,
+				47AC687B620C7A771B5C7EAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = HONYUITests;
 			sourceTree = "<group>";
 		};
+		F3D7AA05E6B19227A212D6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94034A0EDAD1A11790562120 /* Pods-HONY.debug.xcconfig */,
+				26274F0A5A57364AB7C9D863 /* Pods-HONY.release.xcconfig */,
+				08066F021CFCE87579A37F4C /* Pods-HONYTests.debug.xcconfig */,
+				BFE77F3F974DA73D190F4D2C /* Pods-HONYTests.release.xcconfig */,
+				417ABB693A37D7A19B5508F2 /* Pods-HONYUITests.debug.xcconfig */,
+				EEC9D1114B64A7BCEED819D1 /* Pods-HONYUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0F620620282A8A005B528C /* Build configuration list for PBXNativeTarget "HONY" */;
 			buildPhases = (
+				9D5C8C285D91AC5DF3363369 /* [CP] Check Pods Manifest.lock */,
 				DB0F61DA20282A89005B528C /* Sources */,
 				DB0F61DB20282A89005B528C /* Frameworks */,
 				DB0F61DC20282A89005B528C /* Resources */,
+				358159FCD55F4C7E41DEF74C /* [CP] Embed Pods Frameworks */,
+				97ABCE5FE10A8897A6B2FB19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0F620920282A8A005B528C /* Build configuration list for PBXNativeTarget "HONYTests" */;
 			buildPhases = (
+				E974441AFF1866DBDC547BC3 /* [CP] Check Pods Manifest.lock */,
 				DB0F61EE20282A89005B528C /* Sources */,
 				DB0F61EF20282A89005B528C /* Frameworks */,
 				DB0F61F020282A89005B528C /* Resources */,
+				93EF0BF09DA053C2F26DB5A6 /* [CP] Embed Pods Frameworks */,
+				CA94D0645BF6F7037BB9F696 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0F620C20282A8A005B528C /* Build configuration list for PBXNativeTarget "HONYUITests" */;
 			buildPhases = (
+				BD9E9C9B267B0626AFB65615 /* [CP] Check Pods Manifest.lock */,
 				DB0F61F920282A89005B528C /* Sources */,
 				DB0F61FA20282A89005B528C /* Frameworks */,
 				DB0F61FB20282A89005B528C /* Resources */,
+				677F020A652CDBB629A4CAF1 /* [CP] Embed Pods Frameworks */,
+				D63BD779B58EAF8D4FC6F3CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		358159FCD55F4C7E41DEF74C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HONY/Pods-HONY-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONY/Pods-HONY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		677F020A652CDBB629A4CAF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONYUITests/Pods-HONYUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EF0BF09DA053C2F26DB5A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONYTests/Pods-HONYTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97ABCE5FE10A8897A6B2FB19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONY/Pods-HONY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5C8C285D91AC5DF3363369 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HONY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9E9C9B267B0626AFB65615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HONYUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA94D0645BF6F7037BB9F696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONYTests/Pods-HONYTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D63BD779B58EAF8D4FC6F3CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONYUITests/Pods-HONYUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E974441AFF1866DBDC547BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HONYTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB0F61DA20282A89005B528C /* Sources */ = {
@@ -424,6 +625,7 @@
 		};
 		DB0F620720282A8A005B528C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94034A0EDAD1A11790562120 /* Pods-HONY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +641,7 @@
 		};
 		DB0F620820282A8A005B528C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26274F0A5A57364AB7C9D863 /* Pods-HONY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +657,7 @@
 		};
 		DB0F620A20282A8A005B528C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08066F021CFCE87579A37F4C /* Pods-HONYTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +675,7 @@
 		};
 		DB0F620B20282A8A005B528C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFE77F3F974DA73D190F4D2C /* Pods-HONYTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +693,7 @@
 		};
 		DB0F620D20282A8A005B528C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417ABB693A37D7A19B5508F2 /* Pods-HONYUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +710,7 @@
 		};
 		DB0F620E20282A8A005B528C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC9D1114B64A7BCEED819D1 /* Pods-HONYUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
