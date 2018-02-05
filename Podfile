@@ -7,7 +7,8 @@ target 'HONY' do
 
   # Pods for HONY
 	pod 'AlamofireImage'
-  target 'HONYTests' do
+	pod 'AFNetworking'  
+target 'HONYTests' do
     inherit! :search_paths
     # Pods for testing
   end

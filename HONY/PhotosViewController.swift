@@ -41,5 +41,17 @@ class PhotosViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
   
-
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    //change 5 to posts.count when posts is
+    //in the code
+    return 5
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "PhotoCell", for: indexPath) as! PhotoCell
+    cell.textLabel?.text = "This is row \(indexPath.row)"
+    
+    return cell
+  }
+  
 }
