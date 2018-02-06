@@ -2,13 +2,13 @@
 
 **HONY Scroll** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts) to view photos from the blog Humans of New York.
 
-Time spent: **2** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can scroll through a feed of images returned from the Tumblr API (5pts)
+- [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
 The following **stretch** user stories are implemented:
 
@@ -30,14 +30,14 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/0Kv7Y8y.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-* Ran into a [problem](https://stackoverflow.com/questions/32579150/uiimageview-missing-images-in-launch-screen-on-device)  where ImageView would not appear in color no matter how much restarting or cleaning.  Luckily, my lab partner did not have this problem.
+* Ran into a [problem](https://stackoverflow.com/questions/32579150/uiimageview-missing-images-in-launch-screen-on-device) where ImageView would not appear in color no matter how much restarting or cleaning.  Luckily, my lab partner did not have this problem.
 
 ## License
 
