@@ -10,8 +10,8 @@
 		113C243F7629E1D37682FF73 /* Pods_HONYUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D77A72EB24875B3CA545A7 /* Pods_HONYUITests.framework */; };
 		29A01A9F50C89194AD92940F /* Pods_HONY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3EE680051A03BBE1ED83EA /* Pods_HONY.framework */; };
 		4A1833722028384C008E5813 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1833712028384C008E5813 /* PhotoCell.swift */; };
+		4A949FC2202913F400215A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A949FC0202913F300215A5A /* Main.storyboard */; };
 		DB0F61E220282A89005B528C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61E120282A89005B528C /* AppDelegate.swift */; };
-		DB0F61E720282A89005B528C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61E520282A89005B528C /* Main.storyboard */; };
 		DB0F61E920282A89005B528C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61E820282A89005B528C /* Assets.xcassets */; };
 		DB0F61EC20282A89005B528C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */; };
 		DB0F61F720282A89005B528C /* HONYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61F620282A89005B528C /* HONYTests.swift */; };
@@ -43,11 +43,11 @@
 		26274F0A5A57364AB7C9D863 /* Pods-HONY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONY.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONY/Pods-HONY.release.xcconfig"; sourceTree = "<group>"; };
 		417ABB693A37D7A19B5508F2 /* Pods-HONYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HONYUITests/Pods-HONYUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1833712028384C008E5813 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		4A949FC1202913F300215A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94034A0EDAD1A11790562120 /* Pods-HONY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HONY/Pods-HONY.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE77F3F974DA73D190F4D2C /* Pods-HONYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONYTests/Pods-HONYTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB0F61DE20282A89005B528C /* HONY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HONY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0F61E120282A89005B528C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB0F61E620282A89005B528C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB0F61E820282A89005B528C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0F61EB20282A89005B528C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB0F61ED20282A89005B528C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,9 +126,9 @@
 		DB0F61E020282A89005B528C /* HONY */ = {
 			isa = PBXGroup;
 			children = (
+				4A949FC0202913F300215A5A /* Main.storyboard */,
 				DB0F620F20282FB2005B528C /* PhotosViewController.swift */,
 				DB0F61E120282A89005B528C /* AppDelegate.swift */,
-				DB0F61E520282A89005B528C /* Main.storyboard */,
 				DB0F61E820282A89005B528C /* Assets.xcassets */,
 				DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */,
 				DB0F61ED20282A89005B528C /* Info.plist */,
@@ -284,9 +284,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A949FC2202913F400215A5A /* Main.storyboard in Resources */,
 				DB0F61EC20282A89005B528C /* LaunchScreen.storyboard in Resources */,
 				DB0F61E920282A89005B528C /* Assets.xcassets in Resources */,
-				DB0F61E720282A89005B528C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,10 +503,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB0F61E520282A89005B528C /* Main.storyboard */ = {
+		4A949FC0202913F300215A5A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB0F61E620282A89005B528C /* Base */,
+				4A949FC1202913F300215A5A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

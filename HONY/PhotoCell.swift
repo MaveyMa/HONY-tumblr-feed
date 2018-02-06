@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class PhotoCell: UITableViewCell {
 
+    @IBOutlet weak var myImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+            
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
