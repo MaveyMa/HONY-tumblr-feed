@@ -17,6 +17,7 @@
 		DB0F61F720282A89005B528C /* HONYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F61F620282A89005B528C /* HONYTests.swift */; };
 		DB0F620220282A89005B528C /* HONYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F620120282A89005B528C /* HONYUITests.swift */; };
 		DB0F621020282FB2005B528C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F620F20282FB2005B528C /* PhotosViewController.swift */; };
+		DB5E6B6E202BB063003B4CB3 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5E6B6D202BB063003B4CB3 /* PhotoDetailsViewController.swift */; };
 		EA37CDED4AF479E106BE38F2 /* Pods_HONYTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBF5A5F43571CD2CB3208CE /* Pods_HONYTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		DB0F620120282A89005B528C /* HONYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HONYUITests.swift; sourceTree = "<group>"; };
 		DB0F620320282A89005B528C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB0F620F20282FB2005B528C /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		DB5E6B6D202BB063003B4CB3 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		DD3EE680051A03BBE1ED83EA /* Pods_HONY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HONY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBF5A5F43571CD2CB3208CE /* Pods_HONYTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HONYTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC9D1114B64A7BCEED819D1 /* Pods-HONYUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONYUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONYUITests/Pods-HONYUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +128,8 @@
 		DB0F61E020282A89005B528C /* HONY */ = {
 			isa = PBXGroup;
 			children = (
+				DB5E6B6F202BB0C7003B4CB3 /* ViewControllers */,
 				4A949FC0202913F300215A5A /* Main.storyboard */,
-				DB0F620F20282FB2005B528C /* PhotosViewController.swift */,
 				DB0F61E120282A89005B528C /* AppDelegate.swift */,
 				DB0F61E820282A89005B528C /* Assets.xcassets */,
 				DB0F61EA20282A89005B528C /* LaunchScreen.storyboard */,
@@ -153,6 +155,15 @@
 				DB0F620320282A89005B528C /* Info.plist */,
 			);
 			path = HONYUITests;
+			sourceTree = "<group>";
+		};
+		DB5E6B6F202BB0C7003B4CB3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E6B6D202BB063003B4CB3 /* PhotoDetailsViewController.swift */,
+				DB0F620F20282FB2005B528C /* PhotosViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		F3D7AA05E6B19227A212D6FC /* Pods */ = {
@@ -465,6 +476,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5E6B6E202BB063003B4CB3 /* PhotoDetailsViewController.swift in Sources */,
 				DB0F61E220282A89005B528C /* AppDelegate.swift in Sources */,
 				4A1833722028384C008E5813 /* PhotoCell.swift in Sources */,
 				DB0F621020282FB2005B528C /* PhotosViewController.swift in Sources */,

@@ -8,12 +8,13 @@
 
 import UIKit
 import AlamofireImage
+
 class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
   var posts: [[String: Any]] = []
   
-    @IBOutlet weak var tableView: UITableView!
-    override func viewDidLoad() {
+  @IBOutlet weak var tableView: UITableView!
+  override func viewDidLoad() {
     super.viewDidLoad()
     
     tableView.delegate = self
@@ -28,13 +29,10 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         print(error.localizedDescription)
       } else if let data = data,
         let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-        print(dataDictionary)
-        
         // Get the dictionary from the response key
         let responseDictionary = dataDictionary["response"] as! [String: Any]
         // Store the returned array of dictionaries in our posts property
         self.posts = responseDictionary["posts"] as! [[String: Any]]
-        // TODO: Reload the table view
         self.tableView.reloadData()
       }
     }
@@ -43,12 +41,9 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    //change 5 to posts.count when posts is
-    //in the code
     return posts.count
   }
   
@@ -56,19 +51,24 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     let cell = tableView.dequeueReusableCell(withIdentifier: "PhotoCell", for: indexPath) as! PhotoCell
     let post = posts[indexPath.row]
     if let photos = post["photos"] as? [[String: Any]] {
-        // photos is NOT nil, we can use it!
-        // 1.
-        let photo = photos[0]
-        // 2.
-        let originalSize = photo["original_size"] as! [String: Any]
-        // 3.
-        let urlString = originalSize["url"] as! String
-        // 4.
-        let url = URL(string: urlString)
-        // 5.
-        cell.myImageView.af_setImage(withURL: url!)
+      let photo = photos[0]
+      let originalSize = photo["original_size"] as! [String: Any]
+      let urlString = originalSize["url"] as! String
+      let url = URL(string: urlString)
+      cell.myImageView.af_setImage(withURL: url!)
     }
+    
     return cell
+  }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let cell = sender as! UITableViewCell
+    if let indexPath = tableView.indexPath(for: cell){
+      let post = posts[indexPath.row]
+      let destinationViewController = segue.destination as! PhotoDetailsViewController
+      destinationViewController.post = post
+    }
+    
   }
   
 }
