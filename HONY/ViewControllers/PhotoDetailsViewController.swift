@@ -15,19 +15,13 @@ class PhotoDetailsViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-        if let photos = post["photos"] as? [[String: Any]] {
-          let photo = photos[0]
-          let originalSize = photo["original_size"] as! [String: Any]
-          let urlString = originalSize["url"] as! String
-          let url = URL(string: urlString)
-          detailsImageView.af_setImage(withURL: url!)
-        }
-    print(post)
-//    let originalSize = post["original_size"] as! [String: Any]
-//    let urlString = originalSize["url"] as! String
-//    let url = URL(string: urlString)!
-//    detailsImageView.af_setImage(withURL: url)
-//
+    if let photos = post["photos"] as? [[String: Any]] {
+      let photo = photos[0]
+      let originalSize = photo["original_size"] as! [String: Any]
+      let urlString = originalSize["url"] as! String
+      let url = URL(string: urlString)
+      detailsImageView.af_setImage(withURL: url!)
+    }
   }
   
   override func didReceiveMemoryWarning() {
