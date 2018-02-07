@@ -68,7 +68,10 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
       let destinationViewController = segue.destination as! PhotoDetailsViewController
       destinationViewController.post = post
     }
-    
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
   }
   
 }
